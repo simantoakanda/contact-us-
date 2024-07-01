@@ -1,0 +1,140 @@
+/* Section Styles */
+.contact-section {
+    background-image: url('red-light-round-podium-black-background-mock-up.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0; /* Adjust padding as needed */
+    color: #fff; /* Text color on top of the background image */
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.section-title {
+    margin-bottom: 30px;
+}
+
+.section-title h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.section-title p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Form Styles */
+form {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for form */
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f5f5f5; /* Form input background color */
+}
+
+.custom-select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f5f5f5; /* Dropdown background color */
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f5f5f5; /* Textarea background color */
+}
+
+.btnContact {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btnContact:hover {
+    background-color: #0056b3; /* Button background color on hover */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .section-title h2 {
+        font-size: 30px;
+    }
+
+    .section-title p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    .form-control, .custom-select, textarea {
+        font-size: 14px;
+    }
+
+    .btnContact {
+        font-size: 16px;
+    }
+
+    form {
+        padding: 20px;
+    }
+
+    .section-title h2 {
+        font-size: 24px;
+    }
+
+    .section-title p {
+        font-size: 14px;
+    }
+
+    .btnContact {
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+}
